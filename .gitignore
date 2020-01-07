@@ -2,8 +2,5 @@
 .idea
 *.iml
 
-### hugo publish folder ###
-public/
-
 ### Mac ###
 .DS_Store

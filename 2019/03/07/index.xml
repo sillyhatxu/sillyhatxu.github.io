@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/2019/03/07/</link>
+    <description>Recent content on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2019 23:34:12 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/2019/03/07/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Flutter03</title>
+      <link>http://sillyhatxu.com/2019/03/07/learning-flutter03/</link>
+      <pubDate>Thu, 07 Mar 2019 23:34:12 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/07/learning-flutter03/</guid>
+      <description>first app Cookies-Mac-mini:flutterworkspace shikuanxu$ flutter create first_app   Set up the iOS simulator
+ Cookies-Mac-mini:~ shikuanxu$ open -a Simulator   flutter run
+Cookies-Mac-mini:first_app shikuanxu$ flutter run More than one device connected; please specify a device with the &#39;-d &amp;lt;deviceId&amp;gt;&#39; flag, or use &#39;-d all&#39; to act on all devices. xushikuan’s iPhone • 99bd0acef71bad1b3679183d7cc486ef4ea3024f • ios • iOS 12.1.4 iPhone XR • 5B9158E8-D047-4A28-898E-CBF88C861C4E • ios • iOS 12.1 (simulator)  flutter run -d 5B9158E8-D047-4A28-898E-CBF88C861C4E</description>
+    </item>
+    
+    <item>
+      <title>Learning Flutter02</title>
+      <link>http://sillyhatxu.com/2019/03/07/learning-flutter02/</link>
+      <pubDate>Thu, 07 Mar 2019 21:34:32 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/07/learning-flutter02/</guid>
+      <description>Configure Environment Variables (Android) Download Android Studio
+ brew tap caskroom/cask
+Cookies-Mac-mini:~ shikuanxu$ brew tap caskroom/cask ==&amp;gt; Tapping caskroom/cask Cloning into &#39;/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask&#39;... remote: Enumerating objects: 4090, done. remote: Counting objects: 100% (4090/4090), done. remote: Compressing objects: 100% (4074/4074), done. remote: Total 4090 (delta 23), reused 673 (delta 13), pack-reused 0 Receiving objects: 100% (4090/4090), 1.31 MiB | 696.00 KiB/s, done. Resolving deltas: 100% (23/23), done. Tapped 1 command and 3988 casks (4,097 files, 4.</description>
+    </item>
+    
+    <item>
+      <title>Learning Flutter04</title>
+      <link>http://sillyhatxu.com/2019/03/07/learning-flutter04/</link>
+      <pubDate>Thu, 07 Mar 2019 21:09:46 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/07/learning-flutter04/</guid>
+      <description> hot reload [ r ]
+Initializing hot reload... Reloaded 1 of 432 libraries in 11,410ms. D/EGL_emulation( 4711): eglMakeCurrent: 0xa57e5460: ver 3 0 (tinfo 0x8ba51430)  flutter packages upgrade
+ </description>
+    </item>
+    
+    <item>
+      <title>Learning Flutter01</title>
+      <link>http://sillyhatxu.com/2019/03/07/learning-flutter01/</link>
+      <pubDate>Thu, 07 Mar 2019 20:54:23 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/07/learning-flutter01/</guid>
+      <description> Configure Environment Variables (Flutter) Download Flutter
+ Extract the file in the desired location, for example:
+unzip ~/Downloads/flutter_macos_v1.2.1-stable.zip  And copy flutter to /Users/shikuanxu/Documents/Soft/flutter
+  Add the flutter tool to your path:
+ Cookies-Mac-mini:~ shikuanxu$ vim .bash_profile export PATH=&amp;quot;$PATH:/Users/shikuanxu/Documents/Soft/flutter/bin&amp;quot;   Open new terminal (May be)
+flutter doctor    Config Android and IOS  </description>
+    </item>
+    
+  </channel>
+</rss>

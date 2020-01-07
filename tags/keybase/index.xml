@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keybase on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/keybase/</link>
+    <description>Recent content in Keybase on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Mar 2019 16:27:39 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/keybase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gpc and Keybase</title>
+      <link>http://sillyhatxu.com/2019/03/03/gpc-and-keybase/</link>
+      <pubDate>Sun, 03 Mar 2019 16:27:39 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/gpc-and-keybase/</guid>
+      <description>author : iambowen
+ keybase
+GPG(GnuPG)是一种使用混合加密技术(对称/非对称，对称加密提升加密速度，公钥加密用来保证key交换时的安全性)的应用。它的主要作用在于:
+身份验证。对自己的工作签名，比如git提交，邮件等。
+加密。对交流的过程进行加密保护，防止被别人窃取。
+如果是用gpg工具来生成和发布key的话，流程是这样的:
+生成key
+~&amp;gt; gpg --gen-key gpg (GnuPG) 1.4.19; Copyright (C) 2015 Free Software Foundation, Inc. This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Please select what kind of key you want: (1) RSA and RSA (default) (2) DSA and Elgamal (3) DSA (sign only) (4) RSA (sign only) Your selection?</description>
+    </item>
+    
+  </channel>
+</rss>

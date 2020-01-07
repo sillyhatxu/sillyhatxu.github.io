@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/interview/question/</link>
+    <description>Recent content on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 20:15:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/interview/question/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduce Yourself</title>
+      <link>http://sillyhatxu.com/interview/question/tell-me-about-yourself/</link>
+      <pubDate>Mon, 08 Apr 2019 20:15:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/interview/question/tell-me-about-yourself/</guid>
+      <description>My name is Xu Shikuan. I&#39;m Chinese. I live in Singapore. My idol is Games Gosling. So you can call me Gosling. I don&#39;t know if you know my English is not very good. If you mind this matter, please tell me, because I am trying to learn spoken English, I don&#39;t want to cause bad influence because of this matter I&#39;m working as a senior software engineer. I have eight years of working experience.</description>
+    </item>
+    
+  </channel>
+</rss>

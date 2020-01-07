@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/categories/daily/</link>
+    <description>Recent content in Daily on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 22:27:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/categories/daily/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>07 May 2019</title>
+      <link>http://sillyhatxu.com/daily/2019/2019-05-07/</link>
+      <pubDate>Tue, 07 May 2019 22:27:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/daily/2019/2019-05-07/</guid>
+      <description> OKR 英文 - 达到1W词汇量 英文 - 达到面试要求 英文 - 熟读新概念，每周7章 每周7道算法题  </description>
+    </item>
+    
+  </channel>
+</rss>

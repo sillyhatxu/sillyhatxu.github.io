@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrapy on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/scrapy/</link>
+    <description>Recent content in Scrapy on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Mar 2019 15:25:36 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/scrapy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrapy Start</title>
+      <link>http://sillyhatxu.com/2019/03/10/scrapy-start/</link>
+      <pubDate>Sun, 10 Mar 2019 15:25:36 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/10/scrapy-start/</guid>
+      <description>Crate Project [sillyhat-crawler] Create scrapy project (venv) Cookies-Mac-mini:sillyhat-crawler shikuanxu$ scrapy startproject sillyhat_crawler_blog New Scrapy project &#39;sillyhat_crawler_blog&#39;, using template directory &#39;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/templates/project&#39;, created in: /Users/shikuanxu/PycharmProjects/sillyhat-crawler/sillyhat_crawler_blog You can start your first spider with: cd sillyhat_crawler_blog scrapy genspider example example.com (venv) Cookies-Mac-mini:sillyhat-crawler shikuanxu$  [xxxURLxxx]()</description>
+    </item>
+    
+  </channel>
+</rss>

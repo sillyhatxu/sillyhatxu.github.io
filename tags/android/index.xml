@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/android/</link>
+    <description>Recent content in Android on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2019 21:34:32 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Flutter02</title>
+      <link>http://sillyhatxu.com/2019/03/07/learning-flutter02/</link>
+      <pubDate>Thu, 07 Mar 2019 21:34:32 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/07/learning-flutter02/</guid>
+      <description>Configure Environment Variables (Android) Download Android Studio
+ brew tap caskroom/cask
+Cookies-Mac-mini:~ shikuanxu$ brew tap caskroom/cask ==&amp;gt; Tapping caskroom/cask Cloning into &#39;/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask&#39;... remote: Enumerating objects: 4090, done. remote: Counting objects: 100% (4090/4090), done. remote: Compressing objects: 100% (4074/4074), done. remote: Total 4090 (delta 23), reused 673 (delta 13), pack-reused 0 Receiving objects: 100% (4090/4090), 1.31 MiB | 696.00 KiB/s, done. Resolving deltas: 100% (23/23), done. Tapped 1 command and 3988 casks (4,097 files, 4.</description>
+    </item>
+    
+  </channel>
+</rss>

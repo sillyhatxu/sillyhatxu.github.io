@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/docker/</link>
+    <description>Recent content in Docker on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jan 2019 16:31:36 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Mysql by Docker</title>
+      <link>http://sillyhatxu.com/2019/01/install-mysql-by-docker/</link>
+      <pubDate>Mon, 28 Jan 2019 16:31:36 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/01/install-mysql-by-docker/</guid>
+      <description> docker run -p 3306:3306 --name mysql -v /Users/shikuanxu/Documents/Docker/Mysql/config:/etc/mysql/conf.d -v /Users/shikuanxu/Documents/Docker/Mysql/logs:/logs -v /Users/shikuanxu/Documents/Docker/Mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.6 Username: root Password: root docker run -p 3306:3306 --name mysql -v /Users/shikuanxu/Documents/Docker/Mysql/logs:/logs -v /Users/shikuanxu/Documents/Docker/Mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0.13 docker exec -it 69a27ffbc6d2 bash mysql -u root -p  </description>
+    </item>
+    
+    <item>
+      <title>Docker Clear Containers And Images</title>
+      <link>http://sillyhatxu.com/tools/docker/docker-clear-containers-and-images/</link>
+      <pubDate>Wed, 28 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/docker/docker-clear-containers-and-images/</guid>
+      <description>docker image prune -a   深度清理
+docker system prune -a  Delete all containers
+ docker rm $(docker ps -a -q)   Delete all images
+ docker rmi $(docker images -q) docker rmi -f $(docker images -q)   Other command
+ docker container ls -a docker rm -v $(docker images --filter &amp;quot;dangling=true&amp;quot; -q --no-trunc) docker rmi $(docker images --filter &amp;quot;dangling=true&amp;quot; -q --no-trunc)  </description>
+    </item>
+    
+    <item>
+      <title>Docker Command</title>
+      <link>http://sillyhatxu.com/tools/docker/docker-command/</link>
+      <pubDate>Wed, 28 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/docker/docker-command/</guid>
+      <description>查看进程（相当于 ps -ef grep） $ docker ps 进入Docker Container $ docker exec -it 0f36dd233907 bash docker exec -it bd91e0d7fe64 curl -X POST http://localhost:8080/stocks \ -d &#39;[ { &amp;quot;supplierId&amp;quot;:&amp;quot;S28321967847662545421738546126&amp;quot;, &amp;quot;productId&amp;quot;:&amp;quot;P3454633561704515539&amp;quot;, &amp;quot;variationId&amp;quot;:&amp;quot;PV8175989531545614423&amp;quot;, &amp;quot;quantity&amp;quot;:10 } ]&#39; tail -f api.log.2019-04-11 -n 20 docker logs -f bd91e0d7fe64 —tail=20 $ docker images $ docker info 查看docker版本 $ docker version docker -H 10.60.6.109 ps docker -H 10.60.6.109 logs -f 05fcf1e0b0fe 进入swarm模式 $ docker swarm init 部署 $ docker stack deploy -c docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Golang Open Source Projects</title>
+      <link>http://sillyhatxu.com/tools/docker/golang-open-source-projects/</link>
+      <pubDate>Wed, 28 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/docker/golang-open-source-projects/</guid>
+      <description>Golang Open Source Projects golang-open-source-projects
+TODO  定时检查url是否失效，并检查star数， 重新排列 提供相关的技术文章  目录  监控系统 容器技术 PaaS工具 大数据 微服务 CI/CD 数据库技术 存储技术 分布式系统 消息系统 服务器管理 安全工具 网络工具 Web工具 Web框架 区块链技术 其它  监控系统    项目 简介     OpenFalcon  OpenFalcon是一款小米开源的监控系统。功能：数据采集免配置：agent自发现、支持Plugin、主动推送模式; 容量水平扩展：生产环境每秒50万次数据收集、告警、存储、绘图，可持续水平扩展。告警策略自发现：Web界面、支持策略模板、模板继承和覆盖、多种告警方式、支持回调动作。告警设置人性化：支持最大告警次数、告警级别设置、告警恢复通知、告警暂停、不同时段不同阈值、支持维护周期，支持告警合并。历史数据高效查询：秒级返回上百个指标一年的历史数据。Dashboard人性化：多维度的数据展示，用户自定义Dashboard等功能。架构设计高可用：整个系统无核心单点，易运维，易部署。   banshee  周期性指标的监控系统.   Kapacitor  Kapacitor 是一个开源框架，用来处理、监控和警告时间序列数据。   Pome  Pome 是 Postgres Metrics 的意思。Pome 是一个 PostgreSQL 的指标仪表器，用来跟踪你的数据库的健康状况。   pingd  pingd 是世界上最简单的监控服务，使用 golang 编写。软件支持 IPv6，但是服务器不支持.</description>
+    </item>
+    
+  </channel>
+</rss>

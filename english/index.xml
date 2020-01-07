@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Englishes on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/english/</link>
+    <description>Recent content in Englishes on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://sillyhatxu.com/english/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

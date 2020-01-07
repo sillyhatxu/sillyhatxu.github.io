@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elasticsearch on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/elasticsearch/</link>
+    <description>Recent content in Elasticsearch on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Dec 2018 16:45:56 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elasticsearch Query Dsl</title>
+      <link>http://sillyhatxu.com/2018/12/01/elasticsearch-query-dsl/</link>
+      <pubDate>Sat, 01 Dec 2018 16:45:56 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/12/01/elasticsearch-query-dsl/</guid>
+      <description>Index: product_test 1. Query all GET /_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;match_all&amp;rdquo;: {} } } 2. Query by index GET product_test/_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;match_all&amp;rdquo;: {} } } 3. Like. ‘5%&amp;rsquo; GET product_test/_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;bool&amp;rdquo;: { &amp;ldquo;filter&amp;rdquo;: [ { &amp;ldquo;prefix&amp;rdquo;: { &amp;ldquo;name&amp;rdquo;: &amp;ldquo;name_5&amp;rdquo; }} ] } } } 4. Like. ‘5%1&amp;rsquo; GET product_test/_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;bool&amp;rdquo;: { &amp;ldquo;filter&amp;rdquo;: [ { &amp;ldquo;wildcard&amp;rdquo;: { &amp;ldquo;name&amp;rdquo;: &amp;ldquo;name_5*1&amp;rdquo; }} ] } } } 5.</description>
+    </item>
+    
+  </channel>
+</rss>

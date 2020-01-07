@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forwarded on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/forwarded/</link>
+    <description>Recent content in Forwarded on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2019 23:13:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/forwarded/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Awesome Go</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-awesome/</link>
+      <pubDate>Wed, 15 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-awesome/</guid>
+      <description>Contents  Platforms Programming Languages Front-End Development Back-End Development Computer Science Big Data Theory Books Editors Gaming Development Environment Entertainment Databases Media Learn Security Content Management Systems Hardware Business Work Networking Decentralized Systems Miscellaneous Related  Platforms  Node.js - Async non-blocking event-driven JavaScript runtime built on Chrome&amp;rsquo;s V8 JavaScript engine.  Cross-Platform - Writing cross-platform code on Node.js.  Frontend Development iOS - Mobile operating system for Apple phones and tablets.</description>
+    </item>
+    
+    <item>
+      <title>Golang Game Project</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-game-project/</link>
+      <pubDate>Wed, 15 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-game-project/</guid>
+      <description>Games on GitHub  Below is a list of open source games and game-related projects that can be found on GitHub - old school text adventures, educational games, 8-bit platform games, browser-based games, indie games, GameJam projects, add-ons/maps/hacks/plugins for commercial games, libraries, frameworks, engines, you name it.
+Contributing If you&amp;rsquo;d like to add a repository to the list, please create an Issue, or fork this repository and submit a pull request (click here to edit this file from github).</description>
+    </item>
+    
+    <item>
+      <title>Golang Knowledge</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-knowledge/</link>
+      <pubDate>Wed, 15 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-knowledge/</guid>
+      <description>Golang知识图谱 Golang知识图谱</description>
+    </item>
+    
+  </channel>
+</rss>

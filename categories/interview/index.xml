@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interview on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/categories/interview/</link>
+    <description>Recent content in Interview on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Mar 2019 22:27:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What made you switch from using Java to Golang?</title>
+      <link>http://sillyhatxu.com/interview/golang/java-to-golang/</link>
+      <pubDate>Thu, 28 Mar 2019 22:27:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/interview/golang/java-to-golang/</guid>
+      <description> 28 Mar,2019 Tuesday
+ I haven&#39;t kept a diary for a long time because I&#39;m looking for new ways to learn English. I&#39;m a software engineer. Why don&#39;t just recite the interview question?   Question 1:
+Given a text file of size say 100GB? Task is to find first non repeating word in this file? Constraints: You can traverse the file only once.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

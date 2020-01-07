@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gitlab on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/gitlab/</link>
+    <description>Recent content in Gitlab on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Apr 2018 15:12:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Docker Image From Gitlab</title>
+      <link>http://sillyhatxu.com/2018/04/run-docker-image-from-gitlab/</link>
+      <pubDate>Thu, 26 Apr 2018 15:12:29 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/04/run-docker-image-from-gitlab/</guid>
+      <description>docker run
+sudo docker run --detach \ --hostname gitlab.xushikuan.com \ --publish 443:443 --publish 80:80 --publish 2222:22 \ --name gitlab \ --restart always \ --env GITLAB_OMNIBUS_CONFIG=&amp;quot;gitlab_rails[&#39;backup_keep_time&#39;] = 60;gitlab_rails[&#39;manage_backup_path&#39;] = true;gitlab_rails[&#39;backup_path&#39;] = &#39;/var/opt/gitlab/backups&#39;&amp;quot; \ --volume /home/ubuntu/gitlab/config:/etc/gitlab \ --volume /home/ubuntu/gitlab/logs:/var/log/gitlab \ --volume /home/ubuntu/gitlab/data:/var/opt/gitlab \ gitlab/gitlab-ce:11.3.0-rc6.ce.0  </description>
+    </item>
+    
+  </channel>
+</rss>

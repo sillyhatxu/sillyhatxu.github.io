@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/hugo/</link>
+    <description>Recent content in Hugo on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Mar 2019 11:28:12 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://sillyhatxu.com/2019/03/03/creating-a-new-theme/</link>
+      <pubDate>Sun, 03 Mar 2019 11:28:12 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Learning Notes</title>
+      <link>http://sillyhatxu.com/2018/05/hugo-learning-notes/</link>
+      <pubDate>Sat, 26 May 2018 09:50:53 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/05/hugo-learning-notes/</guid>
+      <description> Install  Install hugo
+ brew install hugo
+hugo version
+ Create a New Site
+ hugo new site sillyhat-hugo
+ Add a Theme
+ cd sillyhat-hugo
+cd themes
+git clone https://github.com/giraffeacademy/ga-hugo-theme.git
+echo &#39;theme = &amp;quot;ga-hugo-theme&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
+ Add Some Content
+ hugo new A.md
+ Start the Hugo server
+ hugo server -D
+Navigate to your new site at http://localhost:1313/  Properties
+ </description>
+    </item>
+    
+  </channel>
+</rss>

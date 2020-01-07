@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dart on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/dart/</link>
+    <description>Recent content in Dart on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2019 11:48:27 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dart Basic Grammar</title>
+      <link>http://sillyhatxu.com/2019/03/13/dart-basic-grammar/</link>
+      <pubDate>Wed, 13 Mar 2019 11:48:27 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/13/dart-basic-grammar/</guid>
+      <description>变量 void main() { var name = &amp;quot;flyou&amp;quot;; String name1 = &amp;quot;flyou&amp;quot;; var age = 25; int age1 = 25; void main() { println(name); println(name1); println(age); println(age1); } }  控制台输出：
+ flyou flyou 25 25
+ 在Dart中可以使用关键字 var 声明一个变量，Dart编译器会根据变量的值自动推断出变量的类型和使用已知类型声明变量的是一样的。
+main()方法是Dart的入口方法，和JAVA中的main方法很类似。
+常量 使用final和const关键字都可以声明一个常量，但是与final不同的是const是编译期常量，也就是说在编译器编译时使用const声明的常量必须是已经确定的值。使用final 和const修饰的变量不可以从新赋值
+基本类型  numbers strings booleans lists (和数组是一个概念) maps 字典 runes ( Unicode 字符串) symbols 符号  下面看下简单的例子
+void main() { var str1 = &amp;quot;str1&amp;quot;; var num1 = 1; var double1 = 10.</description>
+    </item>
+    
+  </channel>
+</rss>

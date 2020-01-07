@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ted on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/ted/</link>
+    <description>Recent content in Ted on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Jun 2019 22:27:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/ted/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning a language? Speak it like you’re playing a video game</title>
+      <link>http://sillyhatxu.com/forwarded/2019/learning-a-language-speak-it-like-you-are-playing-a-video-game/</link>
+      <pubDate>Sun, 09 Jun 2019 22:27:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/learning-a-language-speak-it-like-you-are-playing-a-video-game/</guid>
+      <description>Learning a language? Speak it like you’re playing a video game | Marianna Pascal  So for the past 20 years, I’ve been helping Malaysian and other Southeast Asians to speak better English. And through training thousands of Southeast Asians, I’ve discovered a very surprising truth. I’ve discovered that how well somebody communicates in English actually has very little to do with their English level. It has a lot to do with their attitude towards English.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/algorithm/</link>
+    <description>Recent content in Algorithm on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 23:13:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang bit operation</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-bit-operation/</link>
+      <pubDate>Mon, 27 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-bit-operation/</guid>
+      <description>Golang 位运算 在以前内存和处理能力（CPU）都是非常昂贵的，于是直接在位上编程就成为了处理信息的首选方式（在有些情况下也是唯一的方式）。如今，直接对位进行操作在底层系统、图像处理和密码学等领域还是至关重要的。
+在 Go 语言中支持以下几种操作位的方式：
+&amp;amp; 位与 | 位或 ^ 异或 &amp;amp;^ 位与非 &amp;lt;&amp;lt; 左移 &amp;gt;&amp;gt; 右移  接下来我们会对每一个操作符进行详细的讨论并给出一些可以应用位操作的实例。
+&amp;amp; 操作符 在 Go 中，&amp;amp; 操作符用来在两个整数之间进行位 AND 运算。AND 操作有以下特性：
+Given operands a, b AND(a, b) = 1; only if a = b = 1 else = 0 // 给定 2 个操作数 a，b： // 当且仅当 a 和 b 都为 1 时，操作 AND(a, b) 的结果为 1。 // 否则操作 AND(a, b) 为 0。  AND 操作符是一个很好的将整数的指定位清零的方式。在下面的例子中，我们使用 &amp;amp; 运算符将数字后 4 位清零。</description>
+    </item>
+    
+    <item>
+      <title>Shuffle Algorithem</title>
+      <link>http://sillyhatxu.com/forwarded/2019/shuffle-algorithm/</link>
+      <pubDate>Tue, 02 Apr 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/shuffle-algorithm/</guid>
+      <description>1. Fisher–Yates Shuffle（费雪耶兹 随机置乱算法） 算法思想就是从原始数组中随机抽取一个新的数字到新数组中。算法英文描述如下：
+ Write down the numbers from 1 through N. Pick a random number k between one and the number of unstruck numbers remaining (inclusive). Counting from the low end, strike out the kth number not yet struck out, and write it down elsewhere. Repeat from step 2 until all the numbers have been struck out. The sequence of numbers written down in step 3 is now a random permutation of the original numbers.</description>
+    </item>
+    
+    <item>
+      <title>001 Two Sum</title>
+      <link>http://sillyhatxu.com/2018/01/001-two-sum/</link>
+      <pubDate>Fri, 26 Jan 2018 14:41:06 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/01/001-two-sum/</guid>
+      <description>Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice. Example: Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1].
+@Slf4j public class TwoSum { public int[] twoSum(int[] numbers, int target) { int[] result = new int[2]; Map&amp;lt;Integer, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); for (int i = 0; i &amp;lt; numbers.</description>
+    </item>
+    
+  </channel>
+</rss>

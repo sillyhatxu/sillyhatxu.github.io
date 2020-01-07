@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tags/nginx/</link>
+    <description>Recent content in Nginx on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jun 2018 16:34:20 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nginx Command</title>
+      <link>http://sillyhatxu.com/2018/06/nginx-command/</link>
+      <pubDate>Tue, 26 Jun 2018 16:34:20 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/06/nginx-command/</guid>
+      <description>启动服务 ./nginx 测试配置 ./nginx 重启 nginx -s reload</description>
+    </item>
+    
+  </channel>
+</rss>

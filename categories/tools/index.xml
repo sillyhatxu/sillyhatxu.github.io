@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/categories/tools/</link>
+    <description>Recent content in Tools on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 May 2019 23:13:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Tips</title>
+      <link>http://sillyhatxu.com/tools/git/git-tips/</link>
+      <pubDate>Tue, 14 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/git/git-tips/</guid>
+      <description>Git的奇技淫巧:see_no_evil:  Git常用命令集合，Fork于tips项目
+ Git是一个 “分布式版本管理工具”，简单的理解版本管理工具：大家在写东西的时候都用过 “回撤” 这个功能，但是回撤只能回撤几步，假如想要找回我三天之前的修改，光用 “回撤” 是找不回来的。而 “版本管理工具” 能记录每次的修改，只要提交到版本仓库，你就可以找到之前任何时刻的状态（文本状态）。
+下面的内容就是列举了常用的 Git 命令和一些小技巧，可以通过 &amp;ldquo;页面内查找&amp;rdquo; 的方式进行快速查询：Ctrl/Command+f。
+开卷必读 如果之前未使用过 Git，可以学习 Git 小白教程入门
+ 一定要先测试命令的效果后，再用于工作环境中，以防造成不能弥补的后果！到时候别拿着砍刀来找我 所有的命令都在git version 2.7.4 (Apple Git-66)下测试通过 统一概念：  工作区：改动（增删文件和内容） 暂存区：输入命令：git add 改动的文件名，此次改动就放到了 ‘暂存区’ 本地仓库(简称：本地)：输入命令：git commit 此次修改的描述，此次改动就放到了 ’本地仓库’，每个 commit，我叫它为一个 ‘版本’。 远程仓库(简称：远程)：输入命令：git push 远程仓库，此次改动就放到了 ‘远程仓库’（GitHub 等) commit-id：输出命令：git log，最上面那行 commit xxxxxx，后面的字符串就是 commit-id  如果喜欢这个项目，欢迎 Star、提交 Pr、反馈问题😊  目录  展示帮助信息 回到远程仓库的状态 重设第一个commit 展示工作区和暂存区的不同 展示暂存区和最近版本的不同 展示暂存区、工作区和最近版本的不同 快速切换到上一个分支 删除已经合并到 master 的分支 展示本地分支关联远程仓库的情况 关联远程分支 列出所有远程分支 列出本地和远程分支 查看远程分支和本地分支的对应关系 远程删除了分支本地也想删除 创建并切换到本地分支 从远程分支中创建并切换到本地分支 删除本地分支 删除远程分支 重命名本地分支 查看标签 查看标签详细信息 本地创建标签 推送标签到远程仓库 删除本地标签 删除远程标签 切回到某个标签 放弃工作区的修改 恢复删除的文件 以新增一个 commit 的方式还原某一个 commit 的修改 回到某个 commit 的状态，并删除后面的 commit 修改上一个 commit 的描述 查看 commit 历史 显示本地更新过 HEAD 的 git 命令记录 修改作者名 修改远程仓库的 url 增加远程仓库 列出所有远程仓库 查看两个星期内的改动 把 A 分支的某一个 commit，放到 B 分支上 给 git 命令起别名 存储当前的修改，但不用提交 commit 保存当前状态，包括 untracked 的文件 展示所有 stashes 回到某个 stash 的状态 回到最后一个 stash 的状态，并删除这个 stash 删除所有的 stash 从 stash 中拿出某个文件的修改 展示所有 tracked 的文件 展示所有 untracked 的文件 展示所有忽略的文件 强制删除 untracked 的文件 强制删除 untracked 的目录 展示简化的 commit 历史 查看某段代码是谁写的 把某一个分支到导出成一个文件 从包中导入分支 执行 rebase 之前自动 stash 从远程仓库根据 ID，拉下某一状态，到本地分支 详细展示一行中的修改 清除 .</description>
+    </item>
+    
+    <item>
+      <title>Batch Download YouTuBe Video</title>
+      <link>http://sillyhatxu.com/tools/youtube/batch-install-youtube/</link>
+      <pubDate>Tue, 09 Apr 2019 19:27:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/youtube/batch-install-youtube/</guid>
+      <description> youtube-dl github
+Install brew install youtube-dl  Download    Expression Description 中文     -i, &amp;ndash;ignore-errors Continue on download errors, for example to skip unavailable videos in a playlist 下载过程中遇到错误继续下载   -r, &amp;ndash;limit-rate RATE Maximum download rate in bytes per second(e.g. 50K or 4.2M) 设置下载速度    youtube-dl -i -r 100K URL  </description>
+    </item>
+    
+    <item>
+      <title>Atom Keymap</title>
+      <link>http://sillyhatxu.com/2019/03/10/atom-keymap/</link>
+      <pubDate>Sun, 10 Mar 2019 14:05:16 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/10/atom-keymap/</guid>
+      <description> Atom Keymap 菜单栏-分为六大块:  File — 文件的保存打开,项目的保存打开,最后一次的项目加载,关闭及设置中心,以及用户自定义的配置(配置文件,初始化脚本,样式风格,代码片段,快捷键配置文件)等 Edit — 文件编辑的操作,文件编码格式,及行跳转等 View — 重载页面,全屏,字体大小的缩放等 Find — 都是关于查询的 ,跟Sublime text极其相似,快捷键基本一样 Package — 包,就是插件列表的集合点 Help — 帮助文档,软件更新,协议等  左边侧栏,自上而下分为六大部分:  Settings — 全局设置,可以设置文件的编码,菜单栏是否显示,忽略文件,文档缩进,字体大小,项目主目录等,这个比sublime text人性化,简洁明了的配置 Keybindings — 快捷键配置,默认快捷键都汇总于此了,很方便查询对应的快捷键的功能,也方便修改…人性化 Packages — 插件管理中心,可以设置插件,删除插件及禁用,无安装功能 Themes —主题管理中心,可以设置主题(支持鼠标选定,也支持写入配置文件生效),管理主题(删除及在线下载主题) Updates — 目前功能只有一个,查询社区包的状态,随时随地的更新已安装的插件,ATOM软件的更新在HELP里面 Install — 目前分为两栏,自上而下,第一部分是搜索(可以搜索社区的插件),下面一部分会展示目前比较流行的插件(可以直接点击下载使用)  常用快捷键    English Chinese keymap     Find File 查询文件,选定打开 Ctrl + P   Find in Buffer 从缓存器搜索 Ctrl + F   Replace in Buffer 高级替换 Ctrl + Shift + F   Undo 撤销 Ctrl + Z   Redo 重做 Ctrl + Y   Cut 剪切 Shift + Delete   Copy 复制 Ctrl + Insert   Copy Path 复制文档路径 Ctrl + Shift + C   Paste 粘贴 Shift + Insert   Select All 全选 Ctrl + A   Go to Line 跳转到某行 Ctrl + G   Select Encoding 选择编码 Ctrl + Shift +U   New Window 新建界面窗口 Ctrl + Shift + N   New File 新建文件 Ctrl + N   Open File 打开文件 Ctrl + O   Open Folder 打开文件夹 Ctrl + Shift + O   Add Project Folder 加载项目目录 Ctrl + Alt + O   Reopen Last Item 重新加载上次项目 Ctrl + Shift + T   Save 保存文件 Ctrl + S   Save As 另存为 Ctrl + Shift +S   Close Tab 关闭当前编辑文档 Ctrl + W   Close Window 关闭编辑器 Ctrl + Shift + W   Slect Grammar 语法选择 Ctrl + Shift + L   Reload 重载 Ctrl+ Alt +R   Toggle Full Screen F11 全屏   Increase Font Size 增大字体 Ctrl + Shift + “+”   Decrease Font Size 减小字体 Ctrl + Shift + “-“   Toggle Tree View 展示隐藏目录树 Ctrl +   Toggle Commadn palette 全局搜索面板 Ctrl + Shift + P   Select Line 选定一行 Ctrl + L   Select First Character of Line 选定光标至行首 Shift + Home   Slect End of Line 选定光标至行尾 Shift + End   Select to Top 选定光标处至文档首行 Ctrl + Shift + Home   Select to Bottom 选定光标处至文档尾行 Ctrl + Shfit + End   Select Next 匹配选定下一个 Ctrl + D   Select All 匹配选定所有 Alt + F3   Delte End of Word 删除光标处至词尾 Ctrl + Del   Duplicate Line Ctrl + Shift + D 复制当前行追加到后面   Delete Line 删除一行 Ctrl + Shift + K   Toggle Comment 启用注释 Ctrl + /   Toggle developer tools 打开Chrome调试器 Ctrl + Alt + I   Indent 增加缩进 Ctrl + [   Outdent 减少缩进 Ctrl + ]   Move Line Up 行向上移动 Ctrl + up   Move Line Down 行向下移动 Ctrl + Down   Join Lines 行链接 Ctrl + J   newline-below 光标之下增加一行 Ctrl + Enter   editor:newline-above 光标之上增加一行 Ctrl + Shift + Enter   pane:show-next-item 切换编辑的标签页 Ctrl + Tab   Fuzzy Finder 文件跳转面板 Ctrl + T   Select Line Move above 选中行上移 Ctrl + up   Select Line Move below 选中行下移 Ctrl + down   Symbol-view 进入变量、函数跳转面板。 Ctrl + R    </description>
+    </item>
+    
+    <item>
+      <title>Gpc and Keybase</title>
+      <link>http://sillyhatxu.com/2019/03/03/gpc-and-keybase/</link>
+      <pubDate>Sun, 03 Mar 2019 16:27:39 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/gpc-and-keybase/</guid>
+      <description>author : iambowen
+ keybase
+GPG(GnuPG)是一种使用混合加密技术(对称/非对称，对称加密提升加密速度，公钥加密用来保证key交换时的安全性)的应用。它的主要作用在于:
+身份验证。对自己的工作签名，比如git提交，邮件等。
+加密。对交流的过程进行加密保护，防止被别人窃取。
+如果是用gpg工具来生成和发布key的话，流程是这样的:
+生成key
+~&amp;gt; gpg --gen-key gpg (GnuPG) 1.4.19; Copyright (C) 2015 Free Software Foundation, Inc. This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Please select what kind of key you want: (1) RSA and RSA (default) (2) DSA and Elgamal (3) DSA (sign only) (4) RSA (sign only) Your selection?</description>
+    </item>
+    
+    <item>
+      <title>Learning Xpath</title>
+      <link>http://sillyhatxu.com/2019/03/03/learning-xpath/</link>
+      <pubDate>Sun, 03 Mar 2019 14:42:26 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/learning-xpath/</guid>
+      <description>XPath Tutorial Selecting Nodes XPath uses path expressions to select nodes in an XML document. The node is selected by following a path or steps. The most useful path expressions are listed below:
+   Expression Description 中文     nodename Selects all nodes with the name &amp;ldquo;nodename&amp;rdquo; 选择所有名字为&amp;rdquo;nodename&amp;rdquo;的节点   / Selects from the root node 从根节点搜索   // Selects nodes in the document from the current node that match the selection no matter where they are 从全文所搜   .</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://sillyhatxu.com/2019/03/03/creating-a-new-theme/</link>
+      <pubDate>Sun, 03 Mar 2019 11:28:12 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Example</title>
+      <link>http://sillyhatxu.com/2018/12/01/markdown-example/</link>
+      <pubDate>Sat, 01 Dec 2018 18:41:16 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/12/01/markdown-example/</guid>
+      <description>For example to add an HTML table to a Markdown article: This is a regular paragraph.
+  Foo   This is another regular paragraph. Note that Markdown formatting syntax is not processed within block-level HTML tags. E.g., you can’t use Markdown-style emphasis inside an HTML block.
+Span-level HTML tags — e.g. , , or  — can be used anywhere in a Markdown paragraph, list item, or header.</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch Query Dsl</title>
+      <link>http://sillyhatxu.com/2018/12/01/elasticsearch-query-dsl/</link>
+      <pubDate>Sat, 01 Dec 2018 16:45:56 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/12/01/elasticsearch-query-dsl/</guid>
+      <description>Index: product_test 1. Query all GET /_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;match_all&amp;rdquo;: {} } } 2. Query by index GET product_test/_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;match_all&amp;rdquo;: {} } } 3. Like. ‘5%&amp;rsquo; GET product_test/_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;bool&amp;rdquo;: { &amp;ldquo;filter&amp;rdquo;: [ { &amp;ldquo;prefix&amp;rdquo;: { &amp;ldquo;name&amp;rdquo;: &amp;ldquo;name_5&amp;rdquo; }} ] } } } 4. Like. ‘5%1&amp;rsquo; GET product_test/_search { &amp;ldquo;query&amp;rdquo;: { &amp;ldquo;bool&amp;rdquo;: { &amp;ldquo;filter&amp;rdquo;: [ { &amp;ldquo;wildcard&amp;rdquo;: { &amp;ldquo;name&amp;rdquo;: &amp;ldquo;name_5*1&amp;rdquo; }} ] } } } 5.</description>
+    </item>
+    
+    <item>
+      <title>Nginx Command</title>
+      <link>http://sillyhatxu.com/2018/06/nginx-command/</link>
+      <pubDate>Tue, 26 Jun 2018 16:34:20 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/06/nginx-command/</guid>
+      <description>启动服务 ./nginx 测试配置 ./nginx 重启 nginx -s reload</description>
+    </item>
+    
+    <item>
+      <title>Hugo Learning Notes</title>
+      <link>http://sillyhatxu.com/2018/05/hugo-learning-notes/</link>
+      <pubDate>Sat, 26 May 2018 09:50:53 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/05/hugo-learning-notes/</guid>
+      <description> Install  Install hugo
+ brew install hugo
+hugo version
+ Create a New Site
+ hugo new site sillyhat-hugo
+ Add a Theme
+ cd sillyhat-hugo
+cd themes
+git clone https://github.com/giraffeacademy/ga-hugo-theme.git
+echo &#39;theme = &amp;quot;ga-hugo-theme&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
+ Add Some Content
+ hugo new A.md
+ Start the Hugo server
+ hugo server -D
+Navigate to your new site at http://localhost:1313/  Properties
+ </description>
+    </item>
+    
+    <item>
+      <title>Run Docker Image From Gitlab</title>
+      <link>http://sillyhatxu.com/2018/04/run-docker-image-from-gitlab/</link>
+      <pubDate>Thu, 26 Apr 2018 15:12:29 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/04/run-docker-image-from-gitlab/</guid>
+      <description>docker run
+sudo docker run --detach \ --hostname gitlab.xushikuan.com \ --publish 443:443 --publish 80:80 --publish 2222:22 \ --name gitlab \ --restart always \ --env GITLAB_OMNIBUS_CONFIG=&amp;quot;gitlab_rails[&#39;backup_keep_time&#39;] = 60;gitlab_rails[&#39;manage_backup_path&#39;] = true;gitlab_rails[&#39;backup_path&#39;] = &#39;/var/opt/gitlab/backups&#39;&amp;quot; \ --volume /home/ubuntu/gitlab/config:/etc/gitlab \ --volume /home/ubuntu/gitlab/logs:/var/log/gitlab \ --volume /home/ubuntu/gitlab/data:/var/opt/gitlab \ gitlab/gitlab-ce:11.3.0-rc6.ce.0  </description>
+    </item>
+    
+    <item>
+      <title>Git Operator Record</title>
+      <link>http://sillyhatxu.com/tools/git/git-operator-record/</link>
+      <pubDate>Thu, 26 Apr 2018 15:08:23 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/git/git-operator-record/</guid>
+      <description>暂时储藏 git stash 从储藏中取出（默认取出最后一个） git stash apply 清空 git stash clear 查看stash列表 git stash list 指定要取出的储藏代码 git stash apply stash@{1}
+强制还原c git reset &amp;ndash;hard</description>
+    </item>
+    
+    <item>
+      <title>Docker Clear Containers And Images</title>
+      <link>http://sillyhatxu.com/tools/docker/docker-clear-containers-and-images/</link>
+      <pubDate>Wed, 28 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/docker/docker-clear-containers-and-images/</guid>
+      <description>docker image prune -a   深度清理
+docker system prune -a  Delete all containers
+ docker rm $(docker ps -a -q)   Delete all images
+ docker rmi $(docker images -q) docker rmi -f $(docker images -q)   Other command
+ docker container ls -a docker rm -v $(docker images --filter &amp;quot;dangling=true&amp;quot; -q --no-trunc) docker rmi $(docker images --filter &amp;quot;dangling=true&amp;quot; -q --no-trunc)  </description>
+    </item>
+    
+    <item>
+      <title>Docker Command</title>
+      <link>http://sillyhatxu.com/tools/docker/docker-command/</link>
+      <pubDate>Wed, 28 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/docker/docker-command/</guid>
+      <description>查看进程（相当于 ps -ef grep） $ docker ps 进入Docker Container $ docker exec -it 0f36dd233907 bash docker exec -it bd91e0d7fe64 curl -X POST http://localhost:8080/stocks \ -d &#39;[ { &amp;quot;supplierId&amp;quot;:&amp;quot;S28321967847662545421738546126&amp;quot;, &amp;quot;productId&amp;quot;:&amp;quot;P3454633561704515539&amp;quot;, &amp;quot;variationId&amp;quot;:&amp;quot;PV8175989531545614423&amp;quot;, &amp;quot;quantity&amp;quot;:10 } ]&#39; tail -f api.log.2019-04-11 -n 20 docker logs -f bd91e0d7fe64 —tail=20 $ docker images $ docker info 查看docker版本 $ docker version docker -H 10.60.6.109 ps docker -H 10.60.6.109 logs -f 05fcf1e0b0fe 进入swarm模式 $ docker swarm init 部署 $ docker stack deploy -c docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Golang Open Source Projects</title>
+      <link>http://sillyhatxu.com/tools/docker/golang-open-source-projects/</link>
+      <pubDate>Wed, 28 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/docker/golang-open-source-projects/</guid>
+      <description>Golang Open Source Projects golang-open-source-projects
+TODO  定时检查url是否失效，并检查star数， 重新排列 提供相关的技术文章  目录  监控系统 容器技术 PaaS工具 大数据 微服务 CI/CD 数据库技术 存储技术 分布式系统 消息系统 服务器管理 安全工具 网络工具 Web工具 Web框架 区块链技术 其它  监控系统    项目 简介     OpenFalcon  OpenFalcon是一款小米开源的监控系统。功能：数据采集免配置：agent自发现、支持Plugin、主动推送模式; 容量水平扩展：生产环境每秒50万次数据收集、告警、存储、绘图，可持续水平扩展。告警策略自发现：Web界面、支持策略模板、模板继承和覆盖、多种告警方式、支持回调动作。告警设置人性化：支持最大告警次数、告警级别设置、告警恢复通知、告警暂停、不同时段不同阈值、支持维护周期，支持告警合并。历史数据高效查询：秒级返回上百个指标一年的历史数据。Dashboard人性化：多维度的数据展示，用户自定义Dashboard等功能。架构设计高可用：整个系统无核心单点，易运维，易部署。   banshee  周期性指标的监控系统.   Kapacitor  Kapacitor 是一个开源框架，用来处理、监控和警告时间序列数据。   Pome  Pome 是 Postgres Metrics 的意思。Pome 是一个 PostgreSQL 的指标仪表器，用来跟踪你的数据库的健康状况。   pingd  pingd 是世界上最简单的监控服务，使用 golang 编写。软件支持 IPv6，但是服务器不支持.</description>
+    </item>
+    
+    <item>
+      <title>Install Elk</title>
+      <link>http://sillyhatxu.com/2018/03/install-elk/</link>
+      <pubDate>Mon, 26 Mar 2018 16:28:08 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/03/install-elk/</guid>
+      <description>asdfsadf</description>
+    </item>
+    
+    <item>
+      <title>Install Consul</title>
+      <link>http://sillyhatxu.com/2018/02/install-consul/</link>
+      <pubDate>Mon, 26 Feb 2018 16:28:51 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/02/install-consul/</guid>
+      <description>install consul</description>
+    </item>
+    
+    <item>
+      <title>Consul Command</title>
+      <link>http://sillyhatxu.com/2018/02/consul-command/</link>
+      <pubDate>Mon, 26 Feb 2018 16:25:48 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/02/consul-command/</guid>
+      <description>简单启动 consul agent -dev -ui 如果在另一台机器上使用consul，需要允许外部地址访问，-client 默认为127.0.0.1也就是只允许本机访问，如可被外部访问，则需要设置为: -client 0.0.0.0 consul agent -dev -ui -client 0.0.0.0 consul agent -server -bootstrap-expect 1 -data-dir /Users/xushikuan/consul/ -node=s1 -bind=172.28.2.106 -ui-dir /Users/xushikuan/consul/consul_ui/ -rejoin -client 0.0.0.0 运行cosnul agent以server模式， -server ： 定义agent运行在server模式 -bootstrap-expect ：在一个datacenter中期望提供的server节点数目，当该值提供的时候，consul一直等到达到指定sever数目的时候才会引导整个集群，该标记不能和bootstrap共用 -bind：该地址用来在集群内部的通讯，集群内的所有节点到地址都必须是可达的，默认是0.0.0.0 -node：节点在集群中的名称，在一个集群中必须是唯一的，默认是该节点的主机名 -ui-dir： 提供存放web ui资源的路径，该目录必须是可读的 -rejoin：使consul忽略先前的离开，在再次启动后仍旧尝试加入集群中。 -config-dir：：配置文件目录，里面所有以.json结尾的文件都会被加载 -client：consul服务侦听地址，这个地址提供HTTP、DNS、RPC等服务，默认是127.0.0.1所以不对外提供服务，如果你要对外提供服务改成0.0.0.0</description>
+    </item>
+    
+  </channel>
+</rss>

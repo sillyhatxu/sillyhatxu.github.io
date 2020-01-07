@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/tools/youtube/</link>
+    <description>Recent content on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2019 19:27:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/tools/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Batch Download YouTuBe Video</title>
+      <link>http://sillyhatxu.com/tools/youtube/batch-install-youtube/</link>
+      <pubDate>Tue, 09 Apr 2019 19:27:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/tools/youtube/batch-install-youtube/</guid>
+      <description> youtube-dl github
+Install brew install youtube-dl  Download    Expression Description 中文     -i, &amp;ndash;ignore-errors Continue on download errors, for example to skip unavailable videos in a playlist 下载过程中遇到错误继续下载   -r, &amp;ndash;limit-rate RATE Maximum download rate in bytes per second(e.g. 50K or 4.2M) 设置下载速度    youtube-dl -i -r 100K URL  </description>
+    </item>
+    
+  </channel>
+</rss>

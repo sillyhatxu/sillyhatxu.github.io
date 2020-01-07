@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/2019/03/03/</link>
+    <description>Recent content on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Mar 2019 16:27:39 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/2019/03/03/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gpc and Keybase</title>
+      <link>http://sillyhatxu.com/2019/03/03/gpc-and-keybase/</link>
+      <pubDate>Sun, 03 Mar 2019 16:27:39 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/gpc-and-keybase/</guid>
+      <description>author : iambowen
+ keybase
+GPG(GnuPG)是一种使用混合加密技术(对称/非对称，对称加密提升加密速度，公钥加密用来保证key交换时的安全性)的应用。它的主要作用在于:
+身份验证。对自己的工作签名，比如git提交，邮件等。
+加密。对交流的过程进行加密保护，防止被别人窃取。
+如果是用gpg工具来生成和发布key的话，流程是这样的:
+生成key
+~&amp;gt; gpg --gen-key gpg (GnuPG) 1.4.19; Copyright (C) 2015 Free Software Foundation, Inc. This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Please select what kind of key you want: (1) RSA and RSA (default) (2) DSA and Elgamal (3) DSA (sign only) (4) RSA (sign only) Your selection?</description>
+    </item>
+    
+    <item>
+      <title>Learning Xpath</title>
+      <link>http://sillyhatxu.com/2019/03/03/learning-xpath/</link>
+      <pubDate>Sun, 03 Mar 2019 14:42:26 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/learning-xpath/</guid>
+      <description>XPath Tutorial Selecting Nodes XPath uses path expressions to select nodes in an XML document. The node is selected by following a path or steps. The most useful path expressions are listed below:
+   Expression Description 中文     nodename Selects all nodes with the name &amp;ldquo;nodename&amp;rdquo; 选择所有名字为&amp;rdquo;nodename&amp;rdquo;的节点   / Selects from the root node 从根节点搜索   // Selects nodes in the document from the current node that match the selection no matter where they are 从全文所搜   .</description>
+    </item>
+    
+    <item>
+      <title>Add Youtube Video to You Blog</title>
+      <link>http://sillyhatxu.com/2019/03/03/add-youtube-video-to-you-blog/</link>
+      <pubDate>Sun, 03 Mar 2019 12:22:10 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/add-youtube-video-to-you-blog/</guid>
+      <description>Embedded Players I want to put this video on my website.
+This is ORIGIN_LINK.
+https://www.youtube.com/watch?v=sfhhk8m4mcQ&amp;amp;list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW&amp;amp;index=1  This is VIDEO_ID
+&amp;lt;iframe id=&amp;quot;ytplayer&amp;quot; type=&amp;quot;text/html&amp;quot; width=&amp;quot;640&amp;quot; height=&amp;quot;360&amp;quot; src=&amp;quot;https://www.youtube.com/embed/{VIDEO_ID}?origin={ORIGIN_LINK}&amp;quot; frameborder=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;  For example:
+&amp;lt;iframe id=&amp;quot;ytplayer&amp;quot; type=&amp;quot;text/html&amp;quot; width=&amp;quot;640&amp;quot; height=&amp;quot;360&amp;quot; src=&amp;quot;https://www.youtube.com/embed/sfhhk8m4mcQ?origin=https://www.youtube.com/watch?v=sfhhk8m4mcQ&amp;amp;list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW&amp;amp;index=1&amp;quot; frameborder=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;  Result:
+ Other Params:
+Link to YouTuBe</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://sillyhatxu.com/2019/03/03/creating-a-new-theme/</link>
+      <pubDate>Sun, 03 Mar 2019 11:28:12 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2019/03/03/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+  </channel>
+</rss>

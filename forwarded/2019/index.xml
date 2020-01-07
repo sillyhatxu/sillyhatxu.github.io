@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/forwarded/2019/</link>
+    <description>Recent content on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Jun 2019 22:27:11 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/forwarded/2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning a language? Speak it like you’re playing a video game</title>
+      <link>http://sillyhatxu.com/forwarded/2019/learning-a-language-speak-it-like-you-are-playing-a-video-game/</link>
+      <pubDate>Sun, 09 Jun 2019 22:27:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/learning-a-language-speak-it-like-you-are-playing-a-video-game/</guid>
+      <description>Learning a language? Speak it like you’re playing a video game | Marianna Pascal  So for the past 20 years, I’ve been helping Malaysian and other Southeast Asians to speak better English. And through training thousands of Southeast Asians, I’ve discovered a very surprising truth. I’ve discovered that how well somebody communicates in English actually has very little to do with their English level. It has a lot to do with their attitude towards English.</description>
+    </item>
+    
+    <item>
+      <title>Golang bit operation</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-bit-operation/</link>
+      <pubDate>Mon, 27 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-bit-operation/</guid>
+      <description>Golang 位运算 在以前内存和处理能力（CPU）都是非常昂贵的，于是直接在位上编程就成为了处理信息的首选方式（在有些情况下也是唯一的方式）。如今，直接对位进行操作在底层系统、图像处理和密码学等领域还是至关重要的。
+在 Go 语言中支持以下几种操作位的方式：
+&amp;amp; 位与 | 位或 ^ 异或 &amp;amp;^ 位与非 &amp;lt;&amp;lt; 左移 &amp;gt;&amp;gt; 右移  接下来我们会对每一个操作符进行详细的讨论并给出一些可以应用位操作的实例。
+&amp;amp; 操作符 在 Go 中，&amp;amp; 操作符用来在两个整数之间进行位 AND 运算。AND 操作有以下特性：
+Given operands a, b AND(a, b) = 1; only if a = b = 1 else = 0 // 给定 2 个操作数 a，b： // 当且仅当 a 和 b 都为 1 时，操作 AND(a, b) 的结果为 1。 // 否则操作 AND(a, b) 为 0。  AND 操作符是一个很好的将整数的指定位清零的方式。在下面的例子中，我们使用 &amp;amp; 运算符将数字后 4 位清零。</description>
+    </item>
+    
+    <item>
+      <title>Awesome Go</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-awesome/</link>
+      <pubDate>Wed, 15 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-awesome/</guid>
+      <description>Contents  Platforms Programming Languages Front-End Development Back-End Development Computer Science Big Data Theory Books Editors Gaming Development Environment Entertainment Databases Media Learn Security Content Management Systems Hardware Business Work Networking Decentralized Systems Miscellaneous Related  Platforms  Node.js - Async non-blocking event-driven JavaScript runtime built on Chrome&amp;rsquo;s V8 JavaScript engine.  Cross-Platform - Writing cross-platform code on Node.js.  Frontend Development iOS - Mobile operating system for Apple phones and tablets.</description>
+    </item>
+    
+    <item>
+      <title>Golang Game Project</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-game-project/</link>
+      <pubDate>Wed, 15 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-game-project/</guid>
+      <description>Games on GitHub  Below is a list of open source games and game-related projects that can be found on GitHub - old school text adventures, educational games, 8-bit platform games, browser-based games, indie games, GameJam projects, add-ons/maps/hacks/plugins for commercial games, libraries, frameworks, engines, you name it.
+Contributing If you&amp;rsquo;d like to add a repository to the list, please create an Issue, or fork this repository and submit a pull request (click here to edit this file from github).</description>
+    </item>
+    
+    <item>
+      <title>Golang Knowledge</title>
+      <link>http://sillyhatxu.com/forwarded/2019/golang-knowledge/</link>
+      <pubDate>Wed, 15 May 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/golang-knowledge/</guid>
+      <description>Golang知识图谱 Golang知识图谱</description>
+    </item>
+    
+    <item>
+      <title>Shuffle Algorithem</title>
+      <link>http://sillyhatxu.com/forwarded/2019/shuffle-algorithm/</link>
+      <pubDate>Tue, 02 Apr 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/shuffle-algorithm/</guid>
+      <description>1. Fisher–Yates Shuffle（费雪耶兹 随机置乱算法） 算法思想就是从原始数组中随机抽取一个新的数字到新数组中。算法英文描述如下：
+ Write down the numbers from 1 through N. Pick a random number k between one and the number of unstruck numbers remaining (inclusive). Counting from the low end, strike out the kth number not yet struck out, and write it down elsewhere. Repeat from step 2 until all the numbers have been struck out. The sequence of numbers written down in step 3 is now a random permutation of the original numbers.</description>
+    </item>
+    
+    <item>
+      <title>Writing a killer software engineering resume</title>
+      <link>http://sillyhatxu.com/forwarded/2019/writing-a-killer-software-engineering-resume/</link>
+      <pubDate>Tue, 02 Apr 2019 23:13:11 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/forwarded/2019/writing-a-killer-software-engineering-resume/</guid>
+      <description>An in-depth analysis of the résumé that got me interviews at Google, Facebook, Amazon, Microsoft, Apple, and more.
+ 这是一篇简历深度分析，它让我得到了 Google，Facebook，Amazon，Microsoft，Apple 等众多公司的面试机会。
+ This résumé got me interviews at Google, Facebook, Amazon, Microsoft, and Apple.
+ 这篇简历让我进入了 Google，Facebook，Amazon，Microsoft 和 Apple 的面试环节。
+ I obtained these interviews by sending my résumé to the résumé black hole, also known as applying online.
+ 我通过把我的简历持续不断的投入简历黑洞，也就是大家熟悉的网上申请，来获得了这些面试机会。
+ Applying online is the most common way people go about applying for a job and therefore the least effective way to land an interview due to competition.</description>
+    </item>
+    
+  </channel>
+</rss>

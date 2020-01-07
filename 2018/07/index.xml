@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sillyhat Blog</title>
+    <link>http://sillyhatxu.com/2018/07/</link>
+    <description>Recent content on Sillyhat Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2018 16:29:32 +0800</lastBuildDate>
+    
+	<atom:link href="http://sillyhatxu.com/2018/07/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac Operation</title>
+      <link>http://sillyhatxu.com/2018/07/mac-operation/</link>
+      <pubDate>Thu, 26 Jul 2018 16:29:32 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/07/mac-operation/</guid>
+      <description>###12 个常用的文本编辑快捷键（移动、选中）
+经常和文字处理打交道？如果多多使用下面这 12 个快捷键，在移动、选择、复制等操作文字时效率会大大提升。 6 个移动光标的快捷键 第一组快捷键可以用来在文本中快速移动光标： 跳到本行开头 – Command + 左方向键← 跳到本行末尾 – Command + 右方向键→ 跳到当前单词的开头 – Option + 左方向键← 跳到当前单词的末尾 – Option + 右方向键→ 跳到整个文档的开头 – Command + 上方向键↑ 跳到整个文档的末尾 – Command + 下方向键↓ 在上边的这组快捷键中加上 Shift 键，就能够产生一组新的快捷键，可以实现快速选择一行文字、一些词语甚至整篇文档。 6 个文字选择的快捷键 下一组快捷键可以快速选中文字中的某些部分： 选中当前位置到本行开头的文字 – Shift + Command + 左方向键← 选中当前位置到本行末尾的文字 – Shift + Command + 左方向键→ 选中当前位置到所在单词开头的文字 – Shift + Option + 左方向键← 选中当前位置到所在单词末尾的文字 – Shift + Option + 右方向键→ 选中当前位置到整个文档开头的文字 – Shift + Command + 上方向键↑ 选中当前位置到整个文档末尾的文字 – Shift + Command + 下方向键↓ 这些快捷键在基于 Cocoa 的应用中都应该有效（例如 Safari、Chrome、文本编辑、Pages 等），并且适用于所有版本的 Mac OS X 系统。 对了，如果在 iOS 设备上使用蓝牙键盘或通过 Dock 连接的键盘，也可以使用这些快捷键。 http://www.</description>
+    </item>
+    
+    <item>
+      <title>Mac Kill Port</title>
+      <link>http://sillyhatxu.com/2018/07/mac-kill-port/</link>
+      <pubDate>Thu, 26 Jul 2018 16:24:00 +0800</pubDate>
+      
+      <guid>http://sillyhatxu.com/2018/07/mac-kill-port/</guid>
+      <description>query pid
+ lsof -i tcp:18004
+ kill
+ kill PID</description>
+    </item>
+    
+  </channel>
+</rss>
